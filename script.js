@@ -12,10 +12,13 @@ const currentScore_1 = document.querySelector("#current--1");
 const player_0 = document.querySelector(".player--0");
 const player_1 = document.querySelector(".player--1");
 
+
 // Initializing the values of variables
 let currentScore, currentlyPlaying, scores, activePlayer;
 resetIntialization();
 
+
+// Functions
 function switchPlayer() {
   document.querySelector(`#current--${activePlayer}`).textContent = 0;
   currentScore = 0;
@@ -41,6 +44,7 @@ function resetIntialization() {
   scores = [0, 0];
   currentlyPlaying = true;
 }
+
 
 // Rolling the dice
 rollButton.addEventListener("click", function () {
