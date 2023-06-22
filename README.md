@@ -14,7 +14,7 @@ This is a two player game where the users playing have to roll the dice, if the 
 
 ### Links
 
-- Solution URL: (https://github.com/HKES-04/Guess-The-Number.git)
+- Solution URL: (https://github.com/HKES-04/Dice-Game.git)
 - Live Site URL: (https://hkes-04.github.io/Guess-The-Number/)
 
 ## My process
